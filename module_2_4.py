@@ -8,8 +8,8 @@ for i in numbers[1::1]:
             not_primes.append(i)
             is_prime = False
             break
-        elif is_prime:
-            primes.append(i)
+    if is_prime:
+        primes.append(i)
 
 print(f"Primes:{primes}")
 print(f"Not Primes:{not_primes}")
